@@ -1,5 +1,5 @@
 import { Flex, GridItem, Icon, Tooltip, Typography } from '@strapi/design-system';
-import { Link } from '@strapi/design-system/v2';
+import { Link } from '@strapi/design-system';
 import { ExclamationMarkCircle, ExternalLink } from '@strapi/icons';
 import { useIntl } from 'react-intl';
 import { useSelector } from 'react-redux';

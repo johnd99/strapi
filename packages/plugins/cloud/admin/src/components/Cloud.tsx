@@ -5,7 +5,7 @@
  */
 
 import { Box, Flex, Typography } from '@strapi/design-system';
-import { LinkButton } from '@strapi/design-system/v2';
+import { LinkButton } from '@strapi/design-system';
 import { ExternalLink } from '@strapi/icons';
 import { useIntl } from 'react-intl';
 import styled from 'styled-components';

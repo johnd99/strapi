@@ -27,7 +27,7 @@ import {
   VisuallyHidden,
   useComposedRefs,
 } from '@strapi/design-system';
-import { Menu, MenuItem } from '@strapi/design-system/v2';
+import { Menu, MenuItem } from '@strapi/design-system';
 import { Duplicate, Drag, More, EyeStriked } from '@strapi/icons';
 import { getEmptyImage } from 'react-dnd-html5-backend';
 import { useIntl } from 'react-intl';

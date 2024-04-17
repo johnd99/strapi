@@ -1,5 +1,5 @@
 import { Box, Layout, Main, HeaderLayout, EmptyStateLayout } from '@strapi/design-system';
-import { LinkButton } from '@strapi/design-system/v2';
+import { LinkButton } from '@strapi/design-system';
 import { ExternalLink, EmptyPermissions } from '@strapi/icons';
 import { useIntl } from 'react-intl';
 

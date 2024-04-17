@@ -1,4 +1,4 @@
-import { Menu } from '@strapi/design-system/v2';
+import { Menu } from '@strapi/design-system';
 import { useDispatch } from 'react-redux';
 import styled from 'styled-components';
 

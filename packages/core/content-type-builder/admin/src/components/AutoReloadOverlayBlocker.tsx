@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 import { Box, Flex, Typography } from '@strapi/design-system';
-import { Link } from '@strapi/design-system/v2';
+import { Link } from '@strapi/design-system';
 import { Clock, Refresh } from '@strapi/icons';
 import { createPortal } from 'react-dom';
 import { MessageDescriptor, useIntl } from 'react-intl';

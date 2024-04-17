@@ -1,7 +1,7 @@
 // import * as React from 'react';
 
 // import { Box, Flex, Popover, Typography } from '@strapi/design-system';
-// import { Link } from '@strapi/design-system/v2';
+// import { Link } from '@strapi/design-system';
 // import { Modules, UID } from '@strapi/types';
 // import { useIntl } from 'react-intl';
 // import styled from 'styled-components';

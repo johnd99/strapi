@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 import { Box, Button, Flex, Grid, GridItem, Layout, Main, Typography } from '@strapi/design-system';
-import { Link, LinkButton } from '@strapi/design-system/v2';
+import { Link, LinkButton } from '@strapi/design-system';
 import {
   ArrowRight,
   CodeSquare,

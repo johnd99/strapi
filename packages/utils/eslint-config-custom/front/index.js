@@ -70,11 +70,7 @@ module.exports = {
         ],
         patterns: [
           {
-            group: [
-              '@strapi/design-system/*',
-              '!@strapi/design-system/v2',
-              '@strapi/design-system/v2/*',
-            ],
+            group: ['@strapi/design-system/*', '!@strapi/design-system', '@strapi/design-system/*'],
             message: 'Please use the default import from "@strapi/design-system" packages instead.',
           },
           {

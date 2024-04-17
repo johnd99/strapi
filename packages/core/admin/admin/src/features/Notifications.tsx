@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 import { Alert, AlertVariant, Flex, useCallbackRef } from '@strapi/design-system';
-import { Link } from '@strapi/design-system/v2';
+import { Link } from '@strapi/design-system';
 import { useIntl } from 'react-intl';
 
 interface NotificationLink {

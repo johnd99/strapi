@@ -7,7 +7,7 @@ import {
   useRBAC,
 } from '@strapi/admin/strapi-admin';
 import { BaseHeaderLayout, Button, Typography, Flex } from '@strapi/design-system';
-import { Link } from '@strapi/design-system/v2';
+import { Link } from '@strapi/design-system';
 import { ArrowLeft, ExclamationMarkCircle } from '@strapi/icons';
 import { UID } from '@strapi/types';
 import { stringify } from 'qs';

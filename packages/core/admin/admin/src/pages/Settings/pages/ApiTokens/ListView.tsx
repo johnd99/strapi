@@ -1,7 +1,7 @@
 import * as React from 'react';
 
 import { ContentLayout, EmptyStateLayout, HeaderLayout } from '@strapi/design-system';
-import { LinkButton } from '@strapi/design-system/v2';
+import { LinkButton } from '@strapi/design-system';
 import { EmptyDocuments, Plus } from '@strapi/icons';
 import { Data } from '@strapi/types';
 import * as qs from 'qs';

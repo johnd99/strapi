@@ -21,7 +21,7 @@ import {
   VisuallyHidden,
   useComposedRefs,
 } from '@strapi/design-system';
-import { Link } from '@strapi/design-system/v2';
+import { Link } from '@strapi/design-system';
 import { Cross, Drag, Refresh } from '@strapi/icons';
 import { generateNKeysBetween } from 'fractional-indexing';
 import pipe from 'lodash/fp/pipe';

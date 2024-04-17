@@ -21,7 +21,7 @@ import {
   ModalFooter,
   EmptyStateLayout,
 } from '@strapi/design-system';
-import { LinkButton } from '@strapi/design-system/v2';
+import { LinkButton } from '@strapi/design-system';
 import { EmptyDocuments, Plus } from '@strapi/icons';
 import { unstable_useDocument } from '@strapi/plugin-content-manager/strapi-admin';
 import { isAxiosError } from 'axios';

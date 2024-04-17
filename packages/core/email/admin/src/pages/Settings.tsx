@@ -9,8 +9,8 @@ import {
   Grid,
   GridItem,
   HeaderLayout,
-  Option,
-  Select,
+  SingleSelectOption,
+  SingleSelect,
   TextInput,
   Typography,
 } from '@strapi/design-system';
@@ -229,7 +229,7 @@ const SettingsPage = () => {
                     </GridItem>
 
                     <GridItem col={6} s={12}>
-                      <Select
+                      <SingleSelect
                         name="email-provider"
                         label={formatMessage({
                           id: 'email.Settings.email.plugin.label.provider',
@@ -238,8 +238,10 @@ const SettingsPage = () => {
                         disabled
                         value={data.provider}
                       >
-                        <Option value={data.provider}>{data.provider}</Option>
-                      </Select>
+                        <SingleSelectOption value={data.provider}>
+                          {data.provider}
+                        </SingleSelectOption>
+                      </SingleSelect>
                     </GridItem>
                   </Grid>
                 </Flex>

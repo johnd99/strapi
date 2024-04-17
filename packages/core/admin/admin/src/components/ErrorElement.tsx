@@ -1,5 +1,5 @@
 import { Alert, Button, Flex, Icon, Main, Typography } from '@strapi/design-system';
-import { Link } from '@strapi/design-system/v2';
+import { Link } from '@strapi/design-system';
 import { Duplicate, ExclamationMarkCircle } from '@strapi/icons';
 import { useIntl } from 'react-intl';
 import { useRouteError } from 'react-router-dom';

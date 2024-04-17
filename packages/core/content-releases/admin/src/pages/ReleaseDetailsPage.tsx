@@ -30,7 +30,7 @@ import {
   Tooltip,
   EmptyStateLayout,
 } from '@strapi/design-system';
-import { LinkButton, Menu } from '@strapi/design-system/v2';
+import { LinkButton, Menu } from '@strapi/design-system';
 import { CheckCircle, More, Pencil, Trash, CrossCircle, EmptyDocuments } from '@strapi/icons';
 import { unstable_useDocument } from '@strapi/plugin-content-manager/strapi-admin';
 import format from 'date-fns/format';

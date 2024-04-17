@@ -1,5 +1,5 @@
 import { Box, Flex, Icon, Typography } from '@strapi/design-system';
-import { LinkButton } from '@strapi/design-system/v2';
+import { LinkButton } from '@strapi/design-system';
 import { EmptyDocuments, Plus } from '@strapi/icons';
 import * as qs from 'qs';
 import { useIntl } from 'react-intl';

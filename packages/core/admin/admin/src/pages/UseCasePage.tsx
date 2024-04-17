@@ -5,8 +5,8 @@ import {
   Button,
   Flex,
   Main,
-  Option,
-  Select,
+  SingleSelectOption,
+  SingleSelect,
   TextButton,
   TextInput,
   Typography,
@@ -132,7 +132,7 @@ const UseCasePage = () => {
               </Box>
             </Flex>
             <Flex direction="column" alignItems="stretch" gap={6}>
-              <Select
+              <SingleSelect
                 id="usecase"
                 data-testid="usecase"
                 label={formatMessage({
@@ -145,11 +145,11 @@ const UseCasePage = () => {
                 value={role}
               >
                 {options.map(({ intlLabel, value }) => (
-                  <Option key={value} value={value}>
+                  <SingleSelectOption key={value} value={value}>
                     {formatMessage(intlLabel)}
-                  </Option>
+                  </SingleSelectOption>
                 ))}
-              </Select>
+              </SingleSelect>
               {isOther && (
                 <TextInput
                   name="other"

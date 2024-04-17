@@ -10,7 +10,7 @@ import {
   NavSection,
   NavSections,
   NavUser,
-} from '@strapi/design-system/v2';
+} from '@strapi/design-system';
 import { Exit, Write, Lock } from '@strapi/icons';
 import { useIntl } from 'react-intl';
 import { NavLink as RouterNavLink, useLocation } from 'react-router-dom';

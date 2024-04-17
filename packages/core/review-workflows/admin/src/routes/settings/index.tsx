@@ -5,7 +5,7 @@ import * as React from 'react';
 import { Page, useTracking, ConfirmDialog, useRBAC, Table } from '@strapi/admin/strapi-admin';
 import { useLicenseLimits } from '@strapi/admin/strapi-admin/ee';
 import { Flex, IconButton, TFooter, Typography } from '@strapi/design-system';
-import { Link, LinkButton } from '@strapi/design-system/v2';
+import { Link, LinkButton } from '@strapi/design-system';
 import { Pencil, Plus, Trash } from '@strapi/icons';
 import { useIntl } from 'react-intl';
 import { NavLink, useNavigate } from 'react-router-dom';
