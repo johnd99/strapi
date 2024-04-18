@@ -184,7 +184,7 @@ export const ListView = () => {
             )}
             {canCreate && apiTokens.length === 0 ? (
               <EmptyStateLayout
-                icon={<EmptyDocuments width="10rem" />}
+                icon={<EmptyDocuments width="16rem" />}
                 content={formatMessage({
                   id: 'Settings.apiTokens.addFirstToken',
                   defaultMessage: 'Add your first API Token',
@@ -207,7 +207,7 @@ export const ListView = () => {
             ) : null}
             {!canCreate && apiTokens.length === 0 ? (
               <EmptyStateLayout
-                icon={<EmptyDocuments width="10rem" />}
+                icon={<EmptyDocuments width="16rem" />}
                 content={formatMessage({
                   id: 'Settings.apiTokens.emptyStateLayout',
                   defaultMessage: 'You don’t have any content yet...',

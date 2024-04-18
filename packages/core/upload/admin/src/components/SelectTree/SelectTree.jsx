@@ -112,8 +112,8 @@ const IconBox = styled(Box)`
   z-index: 1;
 
   svg {
-    height: ${11 / 16}rem;
-    width: ${11 / 16}rem;
+    height: 1.1rem;
+    width: 1.1rem;
   }
 
   svg path {
@@ -139,7 +139,7 @@ const CarretBox = styled(IconBox)`
   border: none;
 
   svg {
-    width: ${9 / 16}rem;
+    width: 0.9rem;
   }
 `;
 

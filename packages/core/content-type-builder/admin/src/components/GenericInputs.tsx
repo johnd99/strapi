@@ -232,8 +232,8 @@ const GenericInput = ({
                 : json;
             onChange({ target: { name, value } }, false);
           }}
-          minHeight={`${252 / 16}rem`}
-          maxHeight={`${504 / 16}rem`}
+          minHeight="25.2rem"
+          maxHeight="50.4rem"
         />
       );
     }

@@ -27,18 +27,6 @@ describe('SearchAsset', () => {
     const { container } = render(makeApp(null));
 
     expect(container).toMatchInlineSnapshot(`
-      .c4 {
-        border: 0;
-        -webkit-clip: rect(0 0 0 0);
-        clip: rect(0 0 0 0);
-        height: 1px;
-        margin: -1px;
-        overflow: hidden;
-        padding: 0;
-        position: absolute;
-        width: 1px;
-      }
-
       .c0 {
         background: #ffffff;
         padding: 8px;
@@ -115,10 +103,22 @@ describe('SearchAsset', () => {
         border: 2px solid #4945ff;
       }
 
+      .c4 {
+        border: 0;
+        -webkit-clip: rect(0 0 0 0);
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+      }
+
       .c3 {
         border-color: #dcdce4;
-        height: 2rem;
-        width: 2rem;
+        height: 3.2rem;
+        width: 3.2rem;
       }
 
       .c3 svg g,
@@ -162,7 +162,7 @@ describe('SearchAsset', () => {
             >
               <path
                 clip-rule="evenodd"
-                d="m23.813 20.163-5.3-5.367a9.792 9.792 0 0 0 1.312-4.867C19.825 4.455 15.375 0 9.913 0 4.45 0 0 4.455 0 9.929c0 5.473 4.45 9.928 9.912 9.928a9.757 9.757 0 0 0 5.007-1.4l5.275 5.35a.634.634 0 0 0 .913 0l2.706-2.737a.641.641 0 0 0 0-.907ZM9.91 3.867c3.338 0 6.05 2.718 6.05 6.061s-2.712 6.061-6.05 6.061c-3.337 0-6.05-2.718-6.05-6.06 0-3.344 2.713-6.062 6.05-6.062Z"
+                d="m23.813 20.164-5.3-5.368a9.8 9.8 0 0 0 1.312-4.867C19.825 4.455 15.375 0 9.913 0S0 4.455 0 9.929c0 5.473 4.45 9.928 9.913 9.928a9.76 9.76 0 0 0 5.006-1.4l5.275 5.35a.634.634 0 0 0 .913 0l2.706-2.737a.64.64 0 0 0 0-.907M9.91 3.866c3.338 0 6.05 2.718 6.05 6.061s-2.712 6.061-6.05 6.061-6.05-2.718-6.05-6.06c0-3.344 2.713-6.062 6.05-6.062"
                 fill="#32324D"
                 fill-rule="evenodd"
               />

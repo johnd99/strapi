@@ -1,25 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`BulkMoveButton renders 1`] = `
-.c6 {
-  border: 0;
-  -webkit-clip: rect(0 0 0 0);
-  clip: rect(0 0 0 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px;
-}
-
-.c5 {
-  font-size: 0.75rem;
-  line-height: 1.33;
-  font-weight: 600;
-  color: #ffffff;
-}
-
 .c0 {
   background: #4945ff;
   padding: 8px;
@@ -44,6 +25,13 @@ exports[`BulkMoveButton renders 1`] = `
   -ms-flex-direction: row;
   flex-direction: row;
   gap: 8px;
+}
+
+.c5 {
+  font-size: 1.2rem;
+  line-height: 1.33;
+  font-weight: 600;
+  color: #ffffff;
 }
 
 .c2 {
@@ -96,13 +84,13 @@ exports[`BulkMoveButton renders 1`] = `
 }
 
 .c3 {
-  height: 2rem;
+  height: 3.2rem;
   border: 1px solid #d9d8ff;
   background: #f0f0ff;
 }
 
 .c3 svg {
-  height: 0.75rem;
+  height: 1.2rem;
   width: auto;
 }
 
@@ -161,6 +149,18 @@ exports[`BulkMoveButton renders 1`] = `
   fill: #271fe0;
 }
 
+.c6 {
+  border: 0;
+  -webkit-clip: rect(0 0 0 0);
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
 <div>
   <button
     aria-disabled="false"
@@ -179,7 +179,7 @@ exports[`BulkMoveButton renders 1`] = `
         xmlns="http://www.w3.org/2000/svg"
       >
         <path
-          d="M12.414 5H21a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h7.414l2 2Z"
+          d="M12.414 5H21a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h7.414z"
           fill="#212134"
         />
       </svg>

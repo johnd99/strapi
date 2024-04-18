@@ -16,7 +16,7 @@ import { LinkIcon } from './Icons/LinkIcon';
 
 const EmptyStateIconWrapper = styled(Box)`
   svg {
-    height: ${88 / 16}rem;
+    height: 8.8rem;
   }
 `;
 

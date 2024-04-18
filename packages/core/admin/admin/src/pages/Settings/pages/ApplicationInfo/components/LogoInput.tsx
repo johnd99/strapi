@@ -372,13 +372,7 @@ const ComputerForm = () => {
                 onDragEnter={handleDragEnter}
                 onDragLeave={handleDragLeave}
               >
-                <Icon
-                  color="primary600"
-                  width={`${60 / 16}rem`}
-                  height={`${60 / 16}rem`}
-                  as={PicturePlus}
-                  aria-hidden
-                />
+                <Icon color="primary600" width="6rem" height="6rem" as={PicturePlus} aria-hidden />
                 <Box paddingTop={3} paddingBottom={5}>
                   <Typography variant="delta" as="label" htmlFor={id}>
                     {formatMessage({
@@ -493,7 +487,7 @@ const PendingLogoDialog = ({ onChangeLogo }: PendingLogoDialogProps) => {
             })}
           </Button>
         </Flex>
-        <Box maxWidth={`${180 / 16}rem`}>
+        <Box maxWidth={`18rem`}>
           {localImage?.url ? <ImageCardAsset asset={localImage} /> : null}
         </Box>
       </Box>

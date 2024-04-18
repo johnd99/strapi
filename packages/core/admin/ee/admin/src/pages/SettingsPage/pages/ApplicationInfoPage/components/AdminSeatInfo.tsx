@@ -82,12 +82,7 @@ export const AdminSeatInfoEE = () => {
               defaultMessage: 'At limit: add seats to invite more users',
             })}
           >
-            <Icon
-              width={`${14 / 16}rem`}
-              height={`${14 / 16}rem`}
-              color="danger500"
-              as={ExclamationMarkCircle}
-            />
+            <Icon width="1.4rem" height="1.4rem" color="danger500" as={ExclamationMarkCircle} />
           </Tooltip>
         )}
       </Flex>

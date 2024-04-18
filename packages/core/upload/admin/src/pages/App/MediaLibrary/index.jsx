@@ -54,7 +54,7 @@ import { Filters } from './components/Filters';
 import { Header } from './components/Header';
 
 const BoxWithHeight = styled(Box)`
-  height: ${32 / 16}rem;
+  height: 3.2rem;
   display: flex;
   align-items: center;
 `;

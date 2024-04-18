@@ -17,7 +17,7 @@ const Wrapper = styled(Flex)`
 `;
 
 const IconWrapper = styled.div`
-  font-size: ${60 / 16}rem;
+  font-size: 6rem;
 
   svg path {
     fill: ${({ theme }) => theme.colors.primary600};

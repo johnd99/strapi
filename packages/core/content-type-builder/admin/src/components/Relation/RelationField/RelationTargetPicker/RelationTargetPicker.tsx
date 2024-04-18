@@ -76,7 +76,7 @@ export const RelationTargetPicker = ({
  */
 const MenuTrigger = styled(Menu.Trigger)`
   svg {
-    width: ${6 / 16}rem;
-    height: ${4 / 16}rem;
+    width: 0.6rem;
+    height: 0.4rem;
   }
 `;

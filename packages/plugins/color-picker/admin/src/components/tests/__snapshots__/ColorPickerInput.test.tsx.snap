@@ -1,31 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<ColorPickerInput /> renders and matches the snapshot 1`] = `
-.c9 {
-  border: 0;
-  -webkit-clip: rect(0 0 0 0);
-  clip: rect(0 0 0 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px;
-}
-
-.c1 {
-  font-size: 0.75rem;
-  line-height: 1.33;
-  font-weight: 600;
-  color: #32324d;
-}
-
-.c8 {
-  font-size: 0.875rem;
-  line-height: 1.43;
-  color: #666687;
-}
-
 .c3 {
   background: #ffffff;
   padding: 8px;
@@ -62,6 +37,19 @@ exports[`<ColorPickerInput /> renders and matches the snapshot 1`] = `
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
+}
+
+.c1 {
+  font-size: 1.2rem;
+  line-height: 1.33;
+  font-weight: 600;
+  color: #32324d;
+}
+
+.c8 {
+  font-size: 1.4rem;
+  line-height: 1.43;
+  color: #666687;
 }
 
 .c5 {
@@ -111,6 +99,18 @@ exports[`<ColorPickerInput /> renders and matches the snapshot 1`] = `
   left: -5px;
   right: -5px;
   border: 2px solid #4945ff;
+}
+
+.c9 {
+  border: 0;
+  -webkit-clip: rect(0 0 0 0);
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
 }
 
 .c2 {
@@ -208,7 +208,7 @@ exports[`<ColorPickerInput /> renders and matches the snapshot 1`] = `
           >
             <path
               clip-rule="evenodd"
-              d="M14 .889a.86.86 0 0 1-.26.625L7.615 7.736A.834.834 0 0 1 7 8a.834.834 0 0 1-.615-.264L.26 1.514A.861.861 0 0 1 0 .889c0-.24.087-.45.26-.625A.834.834 0 0 1 .875 0h12.25c.237 0 .442.088.615.264a.86.86 0 0 1 .26.625Z"
+              d="M14 .889a.86.86 0 0 1-.26.625L7.615 7.736A.83.83 0 0 1 7 8a.83.83 0 0 1-.615-.264L.26 1.514A.86.86 0 0 1 0 .889Q0 .528.26.264A.83.83 0 0 1 .875 0h12.25q.355 0 .615.264a.86.86 0 0 1 .26.625"
               fill="#32324D"
               fill-rule="evenodd"
             />

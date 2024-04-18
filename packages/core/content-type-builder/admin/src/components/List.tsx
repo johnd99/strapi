@@ -93,7 +93,7 @@ export const List = ({
                   defaultMessage: 'Create your first Collection-Type',
                 })}
                 hasRadius
-                icon={<EmptyDocuments width="10rem" />}
+                icon={<EmptyDocuments width="16rem" />}
               />
             </Td>
           </Tr>
@@ -148,7 +148,7 @@ export const List = ({
                       }
                 )}
                 hasRadius
-                icon={<EmptyDocuments width="10rem" />}
+                icon={<EmptyDocuments width="16rem" />}
               />
             </Td>
           </Tr>

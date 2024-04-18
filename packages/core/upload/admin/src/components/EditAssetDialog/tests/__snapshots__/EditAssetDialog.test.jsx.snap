@@ -1,66 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<EditAssetDialog /> renders and matches the snapshot 1`] = `
-.c2 {
-  border: 0;
-  -webkit-clip: rect(0 0 0 0);
-  clip: rect(0 0 0 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px;
-}
-
-.c14 {
-  font-size: 0.875rem;
-  line-height: 1.43;
-  font-weight: 600;
-  color: #32324d;
-}
-
-.c6 {
-  font-size: 0.75rem;
-  line-height: 1.33;
-  font-weight: 600;
-  color: #ffffff;
-}
-
-.c33 {
-  font-weight: 600;
-  font-size: 0.6875rem;
-  line-height: 1.45;
-  text-transform: uppercase;
-  color: #666687;
-}
-
-.c34 {
-  font-size: 0.75rem;
-  line-height: 1.33;
-  color: #4a4a6a;
-}
-
-.c35 {
-  font-size: 0.75rem;
-  line-height: 1.33;
-  font-weight: 600;
-  color: #32324d;
-}
-
-.c39 {
-  font-size: 0.75rem;
-  line-height: 1.33;
-  color: #666687;
-}
-
 .c0 {
   margin-left: -250px;
   position: fixed;
   left: 50%;
-  top: 2.875rem;
+  top: 4.6rem;
   z-index: 10;
-  width: 31.25rem;
+  width: 50rem;
 }
 
 .c7 {
@@ -74,7 +21,7 @@ exports[`<EditAssetDialog /> renders and matches the snapshot 1`] = `
   background: #ffffff;
   border-radius: 4px;
   box-shadow: 0px 2px 15px rgba(33,33,52,0.1);
-  width: 51.875rem;
+  width: 83rem;
 }
 
 .c11 {
@@ -275,6 +222,47 @@ exports[`<EditAssetDialog /> renders and matches the snapshot 1`] = `
   gap: 8px;
 }
 
+.c14 {
+  font-size: 1.4rem;
+  line-height: 1.43;
+  font-weight: 600;
+  color: #32324d;
+}
+
+.c6 {
+  font-size: 1.2rem;
+  line-height: 1.33;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.c33 {
+  font-weight: 600;
+  font-size: 1.1rem;
+  line-height: 1.45;
+  text-transform: uppercase;
+  color: #666687;
+}
+
+.c34 {
+  font-size: 1.2rem;
+  line-height: 1.33;
+  color: #4a4a6a;
+}
+
+.c35 {
+  font-size: 1.2rem;
+  line-height: 1.33;
+  font-weight: 600;
+  color: #32324d;
+}
+
+.c39 {
+  font-size: 1.2rem;
+  line-height: 1.33;
+  color: #666687;
+}
+
 .c16 {
   position: relative;
   outline: none;
@@ -325,13 +313,13 @@ exports[`<EditAssetDialog /> renders and matches the snapshot 1`] = `
 }
 
 .c46 {
-  height: 2rem;
+  height: 3.2rem;
   border: 1px solid #dcdce4;
   background: #ffffff;
 }
 
 .c46 svg {
-  height: 0.75rem;
+  height: 1.2rem;
   width: auto;
 }
 
@@ -381,13 +369,13 @@ exports[`<EditAssetDialog /> renders and matches the snapshot 1`] = `
 }
 
 .c47 {
-  height: 2rem;
+  height: 3.2rem;
   border: 1px solid #d9d8ff;
   background: #f0f0ff;
 }
 
 .c47 svg {
-  height: 0.75rem;
+  height: 1.2rem;
   width: auto;
 }
 
@@ -447,11 +435,11 @@ exports[`<EditAssetDialog /> renders and matches the snapshot 1`] = `
 }
 
 .c48 {
-  height: 2rem;
+  height: 3.2rem;
 }
 
 .c48 svg {
-  height: 0.75rem;
+  height: 1.2rem;
   width: auto;
 }
 
@@ -498,6 +486,18 @@ exports[`<EditAssetDialog /> renders and matches the snapshot 1`] = `
   fill: #ffffff;
 }
 
+.c2 {
+  border: 0;
+  -webkit-clip: rect(0 0 0 0);
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
 .c4 {
   z-index: 4;
   display: none;
@@ -517,13 +517,13 @@ exports[`<EditAssetDialog /> renders and matches the snapshot 1`] = `
 .c38 {
   border: none;
   border-radius: 4px;
-  padding-bottom: 0.65625rem;
+  padding-bottom: 1rem;
   padding-left: 16px;
   padding-right: 16px;
-  padding-top: 0.65625rem;
+  padding-top: 1rem;
   color: #32324d;
   font-weight: 400;
-  font-size: 0.875rem;
+  font-size: 1.4rem;
   display: block;
   width: 100%;
   background: inherit;
@@ -588,8 +588,8 @@ exports[`<EditAssetDialog /> renders and matches the snapshot 1`] = `
 
 .c17 {
   border-color: #dcdce4;
-  height: 2rem;
-  width: 2rem;
+  height: 3.2rem;
+  width: 3.2rem;
 }
 
 .c17 svg g,
@@ -636,8 +636,8 @@ exports[`<EditAssetDialog /> renders and matches the snapshot 1`] = `
 }
 
 .c41 svg {
-  height: 0.6875rem;
-  width: 0.6875rem;
+  height: 1.1rem;
+  width: 1.1rem;
 }
 
 .c41 svg path {
@@ -654,7 +654,7 @@ exports[`<EditAssetDialog /> renders and matches the snapshot 1`] = `
 }
 
 .c42 svg {
-  width: 0.5625rem;
+  width: 0.9rem;
 }
 
 .c23 {
@@ -668,29 +668,29 @@ exports[`<EditAssetDialog /> renders and matches the snapshot 1`] = `
 }
 
 .c28 svg {
-  font-size: 3rem;
-  height: 16.5rem;
+  font-size: 4.8rem;
+  height: 26.4rem;
 }
 
 .c28 img,
 .c28 video {
   margin: 0;
   padding: 0;
-  max-height: 16.5rem;
+  max-height: 26.4rem;
   max-width: 100%;
 }
 
 .c26 {
-  height: 3.25rem;
+  height: 5.2rem;
 }
 
-@media (max-width:68.75rem) {
+@media (max-width:110rem) {
   .c21 {
     grid-column: span;
   }
 }
 
-@media (max-width:34.375rem) {
+@media (max-width:55rem) {
   .c21 {
     grid-column: span 12;
   }
@@ -832,7 +832,7 @@ exports[`<EditAssetDialog /> renders and matches the snapshot 1`] = `
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      d="M24 2.417 21.583 0 12 9.583 2.417 0 0 2.417 9.583 12 0 21.583 2.417 24 12 14.417 21.583 24 24 21.583 14.417 12 24 2.417Z"
+                      d="M24 2.417 21.583 0 12 9.583 2.417 0 0 2.417 9.583 12 0 21.583 2.417 24 12 14.417 21.583 24 24 21.583 14.417 12z"
                       fill="#212134"
                     />
                   </svg>
@@ -880,7 +880,7 @@ exports[`<EditAssetDialog /> renders and matches the snapshot 1`] = `
                               xmlns="http://www.w3.org/2000/svg"
                             >
                               <path
-                                d="M3.236 6.149a.2.2 0 0 0-.197.233L6 24h12l2.96-17.618a.2.2 0 0 0-.196-.233H3.236ZM21.8 1.983c.11 0 .2.09.2.2v1.584a.2.2 0 0 1-.2.2H2.2a.2.2 0 0 1-.2-.2V2.183c0-.11.09-.2.2-.2h5.511c.9 0 1.631-1.09 1.631-1.983h5.316c0 .894.73 1.983 1.631 1.983H21.8Z"
+                                d="M3.236 6.149a.2.2 0 0 0-.197.233L6 24h12l2.96-17.618a.2.2 0 0 0-.196-.233zM21.8 1.983c.11 0 .2.09.2.2v1.584a.2.2 0 0 1-.2.2H2.2a.2.2 0 0 1-.2-.2V2.183c0-.11.09-.2.2-.2h5.511c.9 0 1.631-1.09 1.631-1.983h5.316c0 .894.73 1.983 1.631 1.983z"
                                 fill="#32324D"
                               />
                             </svg>
@@ -910,7 +910,7 @@ exports[`<EditAssetDialog /> renders and matches the snapshot 1`] = `
                             >
                               <path
                                 clip-rule="evenodd"
-                                d="M13.571 5.85H10.43v8.47H2.487a.2.2 0 0 0-.14.343l9.512 9.401a.2.2 0 0 0 .282 0l9.513-9.401a.2.2 0 0 0-.14-.342H13.57V5.85ZM2.2 3.027a.2.2 0 0 1-.2-.2V.402c0-.11.09-.2.2-.2h19.6c.11 0 .2.09.2.2v2.423a.2.2 0 0 1-.2.2H2.2Z"
+                                d="M13.571 5.85H10.43v8.47H2.487a.2.2 0 0 0-.14.343l9.512 9.401a.2.2 0 0 0 .282 0l9.513-9.401a.2.2 0 0 0-.14-.342H13.57zM2.2 3.027a.2.2 0 0 1-.2-.2V.402c0-.11.09-.2.2-.2h19.6c.11 0 .2.09.2.2v2.423a.2.2 0 0 1-.2.2z"
                                 fill="#212134"
                                 fill-rule="evenodd"
                               />
@@ -940,11 +940,11 @@ exports[`<EditAssetDialog /> renders and matches the snapshot 1`] = `
                               xmlns="http://www.w3.org/2000/svg"
                             >
                               <path
-                                d="M21.415 1.344a6.137 6.137 0 0 0-8.525.838L11.095 4.33a1.53 1.53 0 1 0 2.35 1.963l1.794-2.148a3.054 3.054 0 0 1 4.365-.324 3.117 3.117 0 0 1 .255 4.301l-3.73 4.467-.035.038a3.048 3.048 0 0 1-4.53.078 1.531 1.531 0 0 0-2.241 2.086 6.114 6.114 0 0 0 9.159-.245l3.721-4.454a6.289 6.289 0 0 0 1.418-4.62 6.01 6.01 0 0 0-2.206-4.128Z"
+                                d="M21.415 1.344a6.137 6.137 0 0 0-8.525.838L11.095 4.33a1.53 1.53 0 1 0 2.35 1.963l1.794-2.148a3.054 3.054 0 0 1 4.365-.324 3.117 3.117 0 0 1 .255 4.301l-3.73 4.467-.035.038q-.301.348-.693.59a3.05 3.05 0 0 1-3.838-.512 1.531 1.531 0 0 0-2.24 2.086 6.114 6.114 0 0 0 9.159-.245l3.721-4.454a6.3 6.3 0 0 0 1.418-4.62 6 6 0 0 0-2.206-4.128"
                                 fill="#212134"
                               />
                               <path
-                                d="m10.399 17.884-1.604 1.92a3.118 3.118 0 0 1-4.278.513 3.052 3.052 0 0 1-.457-4.353l3.795-4.542.028-.031a3.042 3.042 0 0 1 4.584-.022 1.529 1.529 0 0 0 1.794.37c.197-.094.37-.228.51-.395l.018-.022a1.51 1.51 0 0 0-.025-1.977 6.11 6.11 0 0 0-9.27.126l-3.784 4.53a6.137 6.137 0 0 0 .692 8.539 6.01 6.01 0 0 0 4.454 1.437 6.289 6.289 0 0 0 4.294-2.217l1.598-1.913a1.53 1.53 0 0 0-2.35-1.963Z"
+                                d="m10.399 17.884-1.604 1.92a3.12 3.12 0 0 1-4.278.513 3.05 3.05 0 0 1-.457-4.353l3.795-4.542.028-.031q.302-.348.692-.59a3.04 3.04 0 0 1 3.892.568 1.53 1.53 0 0 0 1.794.37c.197-.094.37-.228.51-.395l.018-.022a1.51 1.51 0 0 0-.025-1.977 6.11 6.11 0 0 0-9.27.126l-3.784 4.53a6.137 6.137 0 0 0 .692 8.539 6 6 0 0 0 4.454 1.437q.285-.024.568-.073a6.3 6.3 0 0 0 3.726-2.144l1.598-1.913a1.53 1.53 0 0 0-2.35-1.963"
                                 fill="#212134"
                               />
                             </svg>
@@ -973,7 +973,7 @@ exports[`<EditAssetDialog /> renders and matches the snapshot 1`] = `
                               xmlns="http://www.w3.org/2000/svg"
                             >
                               <path
-                                d="M20.571 21.429h-3.428V24h3.428v-2.571ZM20.571 17.143V3.429H7.714v3.428h9.429v10.286H6.857V0H3.43v3.429H0v3.428h3.429v13.714H24v-3.428h-3.429Z"
+                                d="M20.571 21.429h-3.428V24h3.428zM20.571 17.143V3.429H7.714v3.428h9.429v10.286H6.857V0H3.43v3.429H0v3.428h3.429v13.714H24v-3.428z"
                                 fill="#212134"
                               />
                             </svg>
@@ -1220,7 +1220,7 @@ exports[`<EditAssetDialog /> renders and matches the snapshot 1`] = `
                             role="log"
                           />
                           <div
-                            class=" css-1ioi85f-control"
+                            class=" css-oe0cnm-control"
                           >
                             <div
                               class=" css-onz4xi-ValueContainer"
@@ -1261,7 +1261,7 @@ exports[`<EditAssetDialog /> renders and matches the snapshot 1`] = `
                                 >
                                   <path
                                     clip-rule="evenodd"
-                                    d="M14 .889a.86.86 0 0 1-.26.625L7.615 7.736A.834.834 0 0 1 7 8a.834.834 0 0 1-.615-.264L.26 1.514A.861.861 0 0 1 0 .889c0-.24.087-.45.26-.625A.834.834 0 0 1 .875 0h12.25c.237 0 .442.088.615.264a.86.86 0 0 1 .26.625Z"
+                                    d="M14 .889a.86.86 0 0 1-.26.625L7.615 7.736A.83.83 0 0 1 7 8a.83.83 0 0 1-.615-.264L.26 1.514A.86.86 0 0 1 0 .889Q0 .528.26.264A.83.83 0 0 1 .875 0h12.25q.355 0 .615.264a.86.86 0 0 1 .26.625"
                                     fill="#32324D"
                                     fill-rule="evenodd"
                                   />

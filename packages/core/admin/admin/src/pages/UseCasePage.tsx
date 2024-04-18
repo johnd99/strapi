@@ -122,7 +122,7 @@ const UseCasePage = () => {
           <form onSubmit={(e) => handleSubmit(e, false)}>
             <Flex direction="column" paddingBottom={7}>
               <Logo />
-              <Box paddingTop={6} paddingBottom={1} width={`${250 / 16}rem`}>
+              <Box paddingTop={6} paddingBottom={1} width={`25rem`}>
                 <TypographyCenter variant="alpha" as="h1" id="usecase-title">
                   {formatMessage({
                     id: 'Usecase.title',

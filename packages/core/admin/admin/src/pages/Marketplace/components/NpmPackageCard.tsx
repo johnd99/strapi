@@ -320,14 +320,8 @@ const PackageStats = ({ githubStars = 0, npmDownloads = 0, npmPackageType }: Pac
     <Flex gap={1}>
       {!!githubStars && (
         <>
-          <Icon as={Github} height={`${12 / 16}rem`} width={`${12 / 16}rem`} aria-hidden />
-          <Icon
-            as={Star}
-            height={`${12 / 16}rem`}
-            width={`${12 / 16}rem`}
-            color="warning500"
-            aria-hidden
-          />
+          <Icon as={Github} height="1.2rem" width="1.2rem" aria-hidden />
+          <Icon as={Star} height="1.2rem" width="1.2rem" color="warning500" aria-hidden />
           <p
             aria-label={formatMessage(
               {
@@ -347,7 +341,7 @@ const PackageStats = ({ githubStars = 0, npmDownloads = 0, npmPackageType }: Pac
           <VerticalDivider unsetMargin={false} />
         </>
       )}
-      <Icon as={Download} height={`${12 / 16}rem`} width={`${12 / 16}rem`} aria-hidden />
+      <Icon as={Download} height="1.2rem" width="1.2rem" aria-hidden />
       <p
         aria-label={formatMessage(
           {
@@ -369,7 +363,7 @@ const PackageStats = ({ githubStars = 0, npmDownloads = 0, npmPackageType }: Pac
 };
 
 const VerticalDivider = styled(Divider)`
-  width: ${12 / 16}rem;
+  width: 1.2rem;
   transform: rotate(90deg);
 `;
 

@@ -29,46 +29,13 @@ describe('ADMIN | Pages | Settings | Email Templates', () => {
     });
 
     expect(container).toMatchInlineSnapshot(`
-      .c20 {
-        border: 0;
-        -webkit-clip: rect(0 0 0 0);
-        clip: rect(0 0 0 0);
-        height: 1px;
-        margin: -1px;
-        overflow: hidden;
-        padding: 0;
-        position: absolute;
-        width: 1px;
-      }
-
-      .c7 {
-        font-weight: 600;
-        font-size: 2rem;
-        line-height: 1.25;
-        color: #32324d;
-      }
-
-      .c22 {
-        font-weight: 600;
-        font-size: 0.6875rem;
-        line-height: 1.45;
-        text-transform: uppercase;
-        color: #666687;
-      }
-
-      .c26 {
-        font-size: 0.875rem;
-        line-height: 1.43;
-        color: #32324d;
-      }
-
       .c0 {
         margin-left: -250px;
         position: fixed;
         left: 50%;
-        top: 2.875rem;
+        top: 4.6rem;
         z-index: 10;
-        width: 31.25rem;
+        width: 50rem;
       }
 
       .c3 {
@@ -185,6 +152,27 @@ describe('ADMIN | Pages | Settings | Email Templates', () => {
         flex-direction: row;
       }
 
+      .c7 {
+        font-weight: 600;
+        font-size: 3.2rem;
+        line-height: 1.25;
+        color: #32324d;
+      }
+
+      .c22 {
+        font-weight: 600;
+        font-size: 1.1rem;
+        line-height: 1.45;
+        text-transform: uppercase;
+        color: #666687;
+      }
+
+      .c26 {
+        font-size: 1.4rem;
+        line-height: 1.43;
+        color: #32324d;
+      }
+
       .c25 path {
         fill: #666687;
       }
@@ -238,10 +226,22 @@ describe('ADMIN | Pages | Settings | Email Templates', () => {
         border: 2px solid #4945ff;
       }
 
+      .c20 {
+        border: 0;
+        -webkit-clip: rect(0 0 0 0);
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+      }
+
       .c30 {
         border-color: #dcdce4;
-        height: 2rem;
-        width: 2rem;
+        height: 3.2rem;
+        width: 3.2rem;
       }
 
       .c30 svg g,
@@ -324,7 +324,7 @@ describe('ADMIN | Pages | Settings | Email Templates', () => {
       .c17 th {
         padding-top: 0;
         padding-bottom: 0;
-        height: 3.5rem;
+        height: 5.6rem;
       }
 
       .c19 {
@@ -339,7 +339,7 @@ describe('ADMIN | Pages | Settings | Email Templates', () => {
       }
 
       .c21 svg {
-        height: 0.25rem;
+        height: 0.4rem;
       }
 
       <div>
@@ -485,7 +485,7 @@ describe('ADMIN | Pages | Settings | Email Templates', () => {
                             >
                               <path
                                 clip-rule="evenodd"
-                                d="M15.681 2.804A9.64 9.64 0 0 0 11.818 2C6.398 2 2 6.48 2 12c0 5.521 4.397 10 9.818 10 2.03 0 4.011-.641 5.67-1.835a9.987 9.987 0 0 0 3.589-4.831 1.117 1.117 0 0 0-.664-1.418 1.086 1.086 0 0 0-1.393.676 7.769 7.769 0 0 1-2.792 3.758 7.546 7.546 0 0 1-4.41 1.428V4.222h.002a7.492 7.492 0 0 1 3.003.625 7.61 7.61 0 0 1 2.5 1.762l.464.551-2.986 3.042a.186.186 0 0 0 .129.316H22V3.317a.188.188 0 0 0-.112-.172.179.179 0 0 0-.199.04l-2.355 2.4-.394-.468-.02-.02a9.791 9.791 0 0 0-3.239-2.293Zm-3.863 1.418V2v2.222Zm0 0v15.556c-4.216 0-7.636-3.484-7.636-7.778s3.42-7.777 7.636-7.778Z"
+                                d="M15.681 2.804A9.6 9.6 0 0 0 11.818 2C6.398 2 2 6.48 2 12c0 5.521 4.398 10 9.818 10 2.03 0 4.011-.641 5.67-1.835a10 10 0 0 0 3.589-4.831 1.117 1.117 0 0 0-.664-1.418 1.086 1.086 0 0 0-1.393.676 7.77 7.77 0 0 1-2.792 3.758 7.55 7.55 0 0 1-4.41 1.428V4.222h.002a7.5 7.5 0 0 1 3.003.625 7.6 7.6 0 0 1 2.5 1.762l.464.551-2.986 3.042a.186.186 0 0 0 .129.316H22V3.317a.19.19 0 0 0-.112-.172.18.18 0 0 0-.199.04l-2.355 2.4-.394-.468-.02-.02a9.8 9.8 0 0 0-3.239-2.293m-3.863 1.418V2zm0 0v15.556c-4.216 0-7.636-3.484-7.636-7.778s3.42-7.777 7.636-7.778"
                                 fill="#212134"
                                 fill-rule="evenodd"
                               />
@@ -533,7 +533,7 @@ describe('ADMIN | Pages | Settings | Email Templates', () => {
                               >
                                 <path
                                   clip-rule="evenodd"
-                                  d="M23.604 3.514c.528.528.528 1.36 0 1.887l-2.622 2.607-4.99-4.99L18.6.396a1.322 1.322 0 0 1 1.887 0l3.118 3.118ZM0 24v-4.99l14.2-14.2 4.99 4.99L4.99 24H0Z"
+                                  d="M23.604 3.514c.528.528.528 1.36 0 1.887l-2.622 2.607-4.99-4.99L18.6.396a1.32 1.32 0 0 1 1.887 0zM0 24v-4.99l14.2-14.2 4.99 4.99L4.99 24z"
                                   fill="#212134"
                                   fill-rule="evenodd"
                                 />
@@ -564,7 +564,7 @@ describe('ADMIN | Pages | Settings | Email Templates', () => {
                               xmlns="http://www.w3.org/2000/svg"
                             >
                               <path
-                                d="M20.727 2.97a.2.2 0 0 1 .286 0l2.85 2.89a.2.2 0 0 1 0 .28L9.554 20.854a.2.2 0 0 1-.285 0l-9.13-9.243a.2.2 0 0 1 0-.281l2.85-2.892a.2.2 0 0 1 .284 0l6.14 6.209L20.726 2.97Z"
+                                d="M20.727 2.97a.2.2 0 0 1 .286 0l2.85 2.89a.2.2 0 0 1 0 .28L9.555 20.854a.2.2 0 0 1-.285 0l-9.13-9.243a.2.2 0 0 1 0-.281l2.85-2.892a.2.2 0 0 1 .284 0l6.14 6.209z"
                                 fill="#212134"
                               />
                             </svg>
@@ -611,7 +611,7 @@ describe('ADMIN | Pages | Settings | Email Templates', () => {
                               >
                                 <path
                                   clip-rule="evenodd"
-                                  d="M23.604 3.514c.528.528.528 1.36 0 1.887l-2.622 2.607-4.99-4.99L18.6.396a1.322 1.322 0 0 1 1.887 0l3.118 3.118ZM0 24v-4.99l14.2-14.2 4.99 4.99L4.99 24H0Z"
+                                  d="M23.604 3.514c.528.528.528 1.36 0 1.887l-2.622 2.607-4.99-4.99L18.6.396a1.32 1.32 0 0 1 1.887 0zM0 24v-4.99l14.2-14.2 4.99 4.99L4.99 24z"
                                   fill="#212134"
                                   fill-rule="evenodd"
                                 />

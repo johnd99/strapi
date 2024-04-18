@@ -1,45 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`RemoveAssetDialog snapshots the component 1`] = `
-.c2 {
-  border: 0;
-  -webkit-clip: rect(0 0 0 0);
-  clip: rect(0 0 0 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px;
-}
-
-.c11 {
-  font-weight: 600;
-  font-size: 1.125rem;
-  line-height: 1.22;
-  color: #32324d;
-}
-
-.c15 {
-  font-size: 0.875rem;
-  line-height: 1.43;
-  color: #32324d;
-}
-
-.c22 {
-  font-size: 0.75rem;
-  line-height: 1.33;
-  font-weight: 600;
-  color: #ffffff;
-}
-
 .c0 {
   margin-left: -250px;
   position: fixed;
   left: 50%;
-  top: 2.875rem;
+  top: 4.6rem;
   z-index: 10;
-  width: 31.25rem;
+  width: 50rem;
 }
 
 .c3 {
@@ -132,6 +100,26 @@ exports[`RemoveAssetDialog snapshots the component 1`] = `
   gap: 8px;
 }
 
+.c11 {
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 1.22;
+  color: #32324d;
+}
+
+.c15 {
+  font-size: 1.4rem;
+  line-height: 1.43;
+  color: #32324d;
+}
+
+.c22 {
+  font-size: 1.2rem;
+  line-height: 1.33;
+  font-weight: 600;
+  color: #ffffff;
+}
+
 .c20 {
   position: relative;
   outline: none;
@@ -182,13 +170,13 @@ exports[`RemoveAssetDialog snapshots the component 1`] = `
 }
 
 .c21 {
-  height: 2rem;
+  height: 3.2rem;
   border: 1px solid #dcdce4;
   background: #ffffff;
 }
 
 .c21 svg {
-  height: 0.75rem;
+  height: 1.2rem;
   width: auto;
 }
 
@@ -238,13 +226,13 @@ exports[`RemoveAssetDialog snapshots the component 1`] = `
 }
 
 .c23 {
-  height: 2rem;
+  height: 3.2rem;
   border: 1px solid #d02b20;
   background: #d02b20;
 }
 
 .c23 svg {
-  height: 0.75rem;
+  height: 1.2rem;
   width: auto;
 }
 
@@ -290,13 +278,25 @@ exports[`RemoveAssetDialog snapshots the component 1`] = `
   color: #ffffff;
 }
 
+.c2 {
+  border: 0;
+  -webkit-clip: rect(0 0 0 0);
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
 .c4 {
   inset: 0;
   background: #32324d33;
 }
 
 .c6 {
-  max-width: 25.75rem;
+  max-width: 41.2rem;
   margin: 0 auto;
   overflow: hidden;
   margin-top: 10%;
@@ -405,7 +405,7 @@ exports[`RemoveAssetDialog snapshots the component 1`] = `
                       xmlns="http://www.w3.org/2000/svg"
                     >
                       <path
-                        d="M12 0C5.383 0 0 5.383 0 12s5.383 12 12 12 12-5.383 12-12S18.617 0 12 0Zm1.154 18.456h-2.308V16.15h2.308v2.307Zm-.23-3.687h-1.847l-.346-9.23h2.538l-.346 9.23Z"
+                        d="M12 0C5.383 0 0 5.383 0 12s5.383 12 12 12 12-5.383 12-12S18.617 0 12 0m1.154 18.456h-2.308V16.15h2.308zm-.23-3.687h-1.847l-.346-9.23h2.538z"
                         fill="#212134"
                       />
                     </svg>

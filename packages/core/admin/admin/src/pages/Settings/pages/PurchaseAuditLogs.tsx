@@ -18,7 +18,7 @@ const PurchaseAuditLogs = () => {
         />
         <Box paddingLeft={10} paddingRight={10}>
           <EmptyStateLayout
-            icon={<EmptyPermissions width="10rem" />}
+            icon={<EmptyPermissions width="16rem" />}
             content={formatMessage({
               id: 'Settings.permissions.auditLogs.not-available',
               defaultMessage:

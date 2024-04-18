@@ -70,7 +70,7 @@ export const NoReleases = () => {
   const { formatMessage } = useIntl();
   return (
     <EmptyStateLayout
-      icon={<EmptyDocuments width="10rem" />}
+      icon={<EmptyDocuments width="16rem" />}
       content={formatMessage({
         id: 'content-releases.content-manager-edit-view.add-to-release.no-releases-message',
         defaultMessage:

@@ -76,7 +76,7 @@ const Error = (props: ErrorProps) => {
     <PageMain height="100%">
       <Flex alignItems="center" height="100%" justifyContent="center">
         <EmptyStateLayout
-          icon={<Icon as={ExclamationMarkCircle} width="10rem" />}
+          icon={<Icon as={ExclamationMarkCircle} width="16rem" />}
           content={formatMessage({
             id: 'anErrorOccurred',
             defaultMessage: 'Woops! Something went wrong. Please, try again.',
@@ -108,7 +108,7 @@ const NoPermissions = (props: NoPermissionsProps) => {
       <Flex alignItems="center" height="100%" justifyContent="center">
         <Box minWidth="50%">
           <EmptyStateLayout
-            icon={<EmptyPermissions width="10rem" />}
+            icon={<EmptyPermissions width="16rem" />}
             content={formatMessage({
               id: 'app.components.EmptyStateLayout.content-permissions',
               defaultMessage: "You don't have the permissions to access that content",
@@ -141,7 +141,7 @@ const NoData = (props: NoDataProps) => {
       <Flex alignItems="center" height="100%" width="100%" justifyContent="center">
         <Box minWidth="50%">
           <EmptyStateLayout
-            icon={<EmptyDocuments width="10rem" />}
+            icon={<EmptyDocuments width="16rem" />}
             content={formatMessage({
               id: 'app.components.EmptyStateLayout.content-document',
               defaultMessage: 'No content found',

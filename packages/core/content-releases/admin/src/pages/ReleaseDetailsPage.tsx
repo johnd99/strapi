@@ -645,7 +645,7 @@ const ReleaseDetailsBody = ({ releaseId }: ReleaseDetailsBodyProps) => {
               })}
             </LinkButton>
           }
-          icon={<EmptyDocuments width="10rem" />}
+          icon={<EmptyDocuments width="16rem" />}
           content={formatMessage({
             id: 'content-releases.pages.Details.tab.emptyEntries',
             defaultMessage:

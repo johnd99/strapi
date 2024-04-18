@@ -77,9 +77,7 @@ const SettingsNav = ({ menu }: SettingsNavProps) => {
                   key={link.id}
                 >
                   {formatMessage(link.intlLabel)}
-                  {link?.lockIcon && (
-                    <CustomIcon width={`${15 / 16}rem`} height={`${15 / 16}rem`} as={Lock} />
-                  )}
+                  {link?.lockIcon && <CustomIcon width="1.5rem" height="1.5rem" as={Lock} />}
                 </SubNavLink>
               );
             })}

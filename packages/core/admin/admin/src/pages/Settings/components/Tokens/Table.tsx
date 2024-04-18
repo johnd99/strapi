@@ -78,12 +78,12 @@ const Table = ({
         <TableImpl.Body>
           {sortedTokens.map((token) => (
             <TableImpl.Row key={token.id} onClick={handleRowClick(token.id)}>
-              <TableImpl.Cell maxWidth={`${250 / 16}rem`}>
+              <TableImpl.Cell maxWidth="25rem">
                 <Typography textColor="neutral800" fontWeight="bold" ellipsis>
                   {token.name}
                 </Typography>
               </TableImpl.Cell>
-              <TableImpl.Cell maxWidth={`${250 / 16}rem`}>
+              <TableImpl.Cell maxWidth="25rem">
                 <Typography textColor="neutral800" ellipsis>
                   {token.description}
                 </Typography>

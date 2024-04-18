@@ -75,8 +75,8 @@ const LocaleListCell = ({
         minWidth="100%"
         alignItems="center"
         justifyContent="center"
-        height="2rem"
-        width="2rem"
+        height="3.2rem"
+        width="3.2rem"
       >
         <Typography textColor="neutral800" ellipsis>
           {localesForDocument.join(', ')}
@@ -134,7 +134,7 @@ const Button = styled.button`
 
 const ActionWrapper = styled(Flex)`
   svg {
-    height: ${4 / 16}rem;
+    height: 0.4rem;
   }
 `;
 

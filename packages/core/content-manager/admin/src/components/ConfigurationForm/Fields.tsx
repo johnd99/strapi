@@ -509,8 +509,8 @@ const DragButton = styled(IconButton)`
   cursor: all-scroll;
 
   svg {
-    width: ${12 / 16}rem;
-    height: ${12 / 16}rem;
+    width: 1.2rem;
+    height: 1.2rem;
   }
 `;
 
@@ -522,7 +522,7 @@ const ComponentLink = styled(NavLink)`
   padding: ${(props) => props.theme.spaces[2]};
   border: 1px solid ${({ theme }) => theme.colors.neutral200};
   background: ${({ theme }) => theme.colors.neutral0};
-  width: 8.75rem;
+  width: 14rem;
   border-radius: ${({ theme }) => theme.borderRadius};
   text-decoration: none;
 

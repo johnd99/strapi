@@ -41,7 +41,7 @@ export const InternalErrorPage = () => {
             defaultMessage: 'An error occured',
           })}
           hasRadius
-          icon={<EmptyPictures width="10rem" />}
+          icon={<EmptyPictures width="16rem" />}
           shadow="tableShadow"
         />
       </ContentLayout>

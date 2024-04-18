@@ -146,7 +146,7 @@ const LogoContainer = styled(Box)`
   right: 0;
 
   img {
-    width: ${150 / 16}rem;
+    width: 15rem;
   }
 `;
 
@@ -182,8 +182,8 @@ const ContentBlocks = () => {
         >
           <CloudCustomWrapper hasRadius padding={3}>
             <CloudIconWrapper
-              width="2rem"
-              height="2rem"
+              width="3.2rem"
+              height="3.2rem"
               justifyContent="center"
               hasRadius
               alignItems="center"

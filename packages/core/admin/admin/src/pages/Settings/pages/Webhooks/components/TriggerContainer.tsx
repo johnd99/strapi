@@ -59,8 +59,8 @@ const TriggerContainer = ({ isPending, onCancel, response }: TriggerContainerPro
 
 const Icon = styled.svg<{ color?: keyof DefaultTheme['colors'] }>(
   ({ theme, color }) => `
-  width: ${12 / 16}rem;
-  height: ${12 / 16}rem;
+  width: 1.2rem;
+  height: 1.2rem;
 
 
   ${
@@ -155,7 +155,7 @@ const Message = ({ statusCode, message }: MessageProps) => {
   if (statusCode >= 300) {
     return (
       <Flex justifyContent="flex-end">
-        <Flex maxWidth={`${250 / 16}rem`} justifyContent="flex-end" title={message}>
+        <Flex maxWidth={`25rem`} justifyContent="flex-end" title={message}>
           <Typography ellipsis textColor="neutral600">
             {message}
           </Typography>

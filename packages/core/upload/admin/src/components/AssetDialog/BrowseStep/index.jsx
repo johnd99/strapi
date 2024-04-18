@@ -131,7 +131,7 @@ export const BrowseStep = ({
                     background="neutral0"
                     hasRadius
                     borderColor="neutral200"
-                    height={`${32 / 16}rem`}
+                    height="3.2rem"
                   >
                     <BaseCheckbox
                       aria-label={formatMessage({

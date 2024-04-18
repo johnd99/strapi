@@ -1,38 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Media Library | Breadcrumbs should render and match snapshot 1`] = `
-.c15 {
-  border: 0;
-  -webkit-clip: rect(0 0 0 0);
-  clip: rect(0 0 0 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px;
-}
-
-.c6 {
-  font-size: 0.75rem;
-  line-height: 1.33;
-  color: #8e8ea9;
-}
-
-.c12 {
-  font-size: 0.75rem;
-  line-height: 1.33;
-  font-weight: 600;
-  color: #ffffff;
-}
-
-.c14 {
-  font-size: 0.75rem;
-  line-height: 1.33;
-  font-weight: 600;
-  color: #32324d;
-}
-
 .c4 {
   padding-right: 4px;
   padding-left: 4px;
@@ -101,6 +69,26 @@ exports[`Media Library | Breadcrumbs should render and match snapshot 1`] = `
   gap: 8px;
 }
 
+.c6 {
+  font-size: 1.2rem;
+  line-height: 1.33;
+  color: #8e8ea9;
+}
+
+.c12 {
+  font-size: 1.2rem;
+  line-height: 1.33;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.c14 {
+  font-size: 1.2rem;
+  line-height: 1.33;
+  font-weight: 600;
+  color: #32324d;
+}
+
 .c9 {
   position: relative;
   outline: none;
@@ -150,14 +138,34 @@ exports[`Media Library | Breadcrumbs should render and match snapshot 1`] = `
   border: 2px solid #4945ff;
 }
 
+.c1:first-child {
+  margin-left: calc(-1*8px);
+}
+
+.c3 {
+  border-radius: 4px;
+  color: #666687;
+  font-size: 1.2rem;
+  line-height: 1.43;
+  padding: 4px 8px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c3:hover,
+.c3:focus {
+  background-color: #dcdce4;
+  color: #4a4a6a;
+}
+
 .c10 {
-  height: 2rem;
+  height: 3.2rem;
   border: 1px solid transparent;
   background: transparent;
 }
 
 .c10 svg {
-  height: 0.75rem;
+  height: 1.2rem;
   width: auto;
 }
 
@@ -207,26 +215,6 @@ exports[`Media Library | Breadcrumbs should render and match snapshot 1`] = `
   fill: #8e8ea9;
 }
 
-.c1:first-child {
-  margin-left: calc(-1*8px);
-}
-
-.c3 {
-  border-radius: 4px;
-  color: #666687;
-  font-size: 0.75rem;
-  line-height: 1.43;
-  padding: 4px 8px;
-  -webkit-text-decoration: none;
-  text-decoration: none;
-}
-
-.c3:hover,
-.c3:focus {
-  background-color: #dcdce4;
-  color: #4a4a6a;
-}
-
 .c11 {
   padding: 4px 8px;
   height: unset;
@@ -235,6 +223,18 @@ exports[`Media Library | Breadcrumbs should render and match snapshot 1`] = `
 .c11:hover,
 .c11:focus {
   background-color: #dcdce4;
+}
+
+.c15 {
+  border: 0;
+  -webkit-clip: rect(0 0 0 0);
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
 }
 
 <div>

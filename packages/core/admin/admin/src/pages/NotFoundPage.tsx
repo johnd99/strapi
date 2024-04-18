@@ -40,7 +40,7 @@ export const NotFoundPage = () => {
             defaultMessage: "Oops! We can't seem to find the page you're looging for...",
           })}
           hasRadius
-          icon={<EmptyPictures width="10rem" />}
+          icon={<EmptyPictures width="16rem" />}
           shadow="tableShadow"
         />
       </ContentLayout>

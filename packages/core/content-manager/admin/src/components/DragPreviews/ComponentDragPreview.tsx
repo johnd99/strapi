@@ -14,7 +14,7 @@ const ComponentDragPreview = ({ displayedValue }: ComponentDragPreviewProps) => 
       justifyContent="space-between"
       gap={3}
       padding={3}
-      width={`${300 / 16}rem`}
+      width="30rem"
     >
       <ToggleButton type="button">
         <Flex gap={6}>
@@ -22,13 +22,13 @@ const ComponentDragPreview = ({ displayedValue }: ComponentDragPreviewProps) => 
             alignItems="center"
             justifyContent="center"
             background="neutral200"
-            height={`${32 / 16}rem`}
-            width={`${32 / 16}rem`}
+            height="3.2rem"
+            width="3.2rem"
           >
             <CarretDown />
           </DropdownIconWrapper>
 
-          <Flex maxWidth={`${150 / 16}rem`}>
+          <Flex maxWidth="15rem">
             <Typography textColor="neutral700" ellipsis>
               {displayedValue}
             </Typography>
@@ -53,8 +53,8 @@ const DropdownIconWrapper = styled(Flex)`
   border-radius: 50%;
 
   svg {
-    height: ${6 / 16}rem;
-    width: ${11 / 16}rem;
+    height: 0.6rem;
+    width: 1.1rem;
     > path {
       fill: ${({ theme }) => theme.colors.neutral600};
     }

@@ -28,7 +28,7 @@ export const PreviewCell = ({ type, content }) => {
   if (type === 'folder') {
     return (
       <Initials background="secondary100" textColor="secondary600">
-        <Icon color="secondary500" width={`${16 / 16}rem`} height={`${16 / 16}rem`} as={Folder} />
+        <Icon color="secondary500" width="1.6rem" height="1.6rem" as={Folder} />
       </Initials>
     );
   }

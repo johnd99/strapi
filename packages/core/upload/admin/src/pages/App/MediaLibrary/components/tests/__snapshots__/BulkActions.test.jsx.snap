@@ -1,31 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`BulkActions renders 1`] = `
-.c9 {
-  border: 0;
-  -webkit-clip: rect(0 0 0 0);
-  clip: rect(0 0 0 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px;
-}
-
-.c3 {
-  font-size: 1rem;
-  line-height: 1.5;
-  color: #666687;
-}
-
-.c7 {
-  font-size: 0.75rem;
-  line-height: 1.33;
-  font-weight: 600;
-  color: #ffffff;
-}
-
 .c0 {
   padding-bottom: 20px;
 }
@@ -54,6 +29,19 @@ exports[`BulkActions renders 1`] = `
   -ms-flex-direction: row;
   flex-direction: row;
   gap: 8px;
+}
+
+.c3 {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #666687;
+}
+
+.c7 {
+  font-size: 1.2rem;
+  line-height: 1.33;
+  font-weight: 600;
+  color: #ffffff;
 }
 
 .c5 {
@@ -106,13 +94,13 @@ exports[`BulkActions renders 1`] = `
 }
 
 .c6 {
-  height: 2rem;
+  height: 3.2rem;
   border: 1px solid #f5c0b8;
   background: #fcecea;
 }
 
 .c6 svg {
-  height: 0.75rem;
+  height: 1.2rem;
   width: auto;
 }
 
@@ -172,13 +160,13 @@ exports[`BulkActions renders 1`] = `
 }
 
 .c8 {
-  height: 2rem;
+  height: 3.2rem;
   border: 1px solid #d9d8ff;
   background: #f0f0ff;
 }
 
 .c8 svg {
-  height: 0.75rem;
+  height: 1.2rem;
   width: auto;
 }
 
@@ -237,6 +225,18 @@ exports[`BulkActions renders 1`] = `
   fill: #271fe0;
 }
 
+.c9 {
+  border: 0;
+  -webkit-clip: rect(0 0 0 0);
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
 <div>
   <div
     class="c0 c1"
@@ -263,7 +263,7 @@ exports[`BulkActions renders 1`] = `
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M3.236 6.149a.2.2 0 0 0-.197.233L6 24h12l2.96-17.618a.2.2 0 0 0-.196-.233H3.236ZM21.8 1.983c.11 0 .2.09.2.2v1.584a.2.2 0 0 1-.2.2H2.2a.2.2 0 0 1-.2-.2V2.183c0-.11.09-.2.2-.2h5.511c.9 0 1.631-1.09 1.631-1.983h5.316c0 .894.73 1.983 1.631 1.983H21.8Z"
+            d="M3.236 6.149a.2.2 0 0 0-.197.233L6 24h12l2.96-17.618a.2.2 0 0 0-.196-.233zM21.8 1.983c.11 0 .2.09.2.2v1.584a.2.2 0 0 1-.2.2H2.2a.2.2 0 0 1-.2-.2V2.183c0-.11.09-.2.2-.2h5.511c.9 0 1.631-1.09 1.631-1.983h5.316c0 .894.73 1.983 1.631 1.983z"
             fill="#32324D"
           />
         </svg>
@@ -291,7 +291,7 @@ exports[`BulkActions renders 1`] = `
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M12.414 5H21a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h7.414l2 2Z"
+            d="M12.414 5H21a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h7.414z"
             fill="#212134"
           />
         </svg>

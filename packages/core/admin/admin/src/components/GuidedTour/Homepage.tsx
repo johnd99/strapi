@@ -65,7 +65,7 @@ const GuidedTourHomepage = () => {
             return (
               <Box key={section.key}>
                 <Flex>
-                  <Box minWidth={`${30 / 16}rem`} marginRight={5}>
+                  <Box minWidth={`3rem`} marginRight={5}>
                     <Number state={state}>{index + 1}</Number>
                   </Box>
                   <Typography variant="delta" as="h3">
@@ -75,7 +75,7 @@ const GuidedTourHomepage = () => {
                 <Flex alignItems="flex-start">
                   <Flex
                     justifyContent="center"
-                    minWidth={`${30 / 16}rem`}
+                    minWidth={`3rem`}
                     marginBottom={3}
                     marginTop={3}
                     marginRight={5}

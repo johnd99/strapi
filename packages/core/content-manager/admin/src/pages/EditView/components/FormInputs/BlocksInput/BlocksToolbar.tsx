@@ -26,7 +26,7 @@ const ToolbarWrapper = styled(Flex)`
 const Separator = styled(Toolbar.Separator)`
   background: ${({ theme }) => theme.colors.neutral150};
   width: 1px;
-  height: ${24 / 16}rem;
+  height: 2.4rem;
 `;
 
 const FlexButton = styled(Flex)`

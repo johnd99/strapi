@@ -9,8 +9,8 @@ import styled from 'styled-components';
 
 const ToggleButton = styled(Flex)`
   align-self: flex-end;
-  height: ${22 / 16}rem;
-  width: ${28 / 16}rem;
+  height: 2.2rem;
+  width: 2.8rem;
 
   &:hover,
   &:focus {
@@ -51,11 +51,7 @@ const Option = ({ children, data, selectProps, ...props }) => {
               onOptionToggle(value);
             }}
           >
-            <Icon
-              width={`${14 / 16}rem`}
-              color="neutral500"
-              as={isOpen ? ChevronUp : ChevronDown}
-            />
+            <Icon width="1.4rem" color="neutral500" as={isOpen ? ChevronUp : ChevronDown} />
           </ToggleButton>
         )}
       </Flex>

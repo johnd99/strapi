@@ -158,18 +158,18 @@ const DragButton = styled(ActionButton)`
   cursor: all-scroll;
 
   svg {
-    width: ${12 / 16}rem;
-    height: ${12 / 16}rem;
+    width: 1.2rem;
+    height: 1.2rem;
   }
 `;
 
 const FieldContainer = styled(Flex)`
-  max-height: ${32 / 16}rem;
+  max-height: 3.2rem;
   cursor: pointer;
 
   svg {
-    width: ${10 / 16}rem;
-    height: ${10 / 16}rem;
+    width: 1rem;
+    height: 1rem;
 
     path {
       fill: ${({ theme }) => theme.colors.neutral600};

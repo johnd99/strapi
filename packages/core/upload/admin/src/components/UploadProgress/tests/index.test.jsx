@@ -51,11 +51,6 @@ describe('<UploadProgress />', () => {
     } = renderCompo();
 
     expect(firstChild).toMatchInlineSnapshot(`
-      .c9 {
-        font-size: 0.75rem;
-        line-height: 1.33;
-      }
-
       .c0 {
         background: #eaeaef;
       }
@@ -114,6 +109,11 @@ describe('<UploadProgress />', () => {
         -ms-flex-direction: row;
         flex-direction: row;
         gap: 8px;
+      }
+
+      .c9 {
+        font-size: 1.2rem;
+        line-height: 1.33;
       }
 
       .c6:before {
@@ -191,7 +191,7 @@ describe('<UploadProgress />', () => {
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
-                  d="M24 2.417 21.583 0 12 9.583 2.417 0 0 2.417 9.583 12 0 21.583 2.417 24 12 14.417 21.583 24 24 21.583 14.417 12 24 2.417Z"
+                  d="M24 2.417 21.583 0 12 9.583 2.417 0 0 2.417 9.583 12 0 21.583 2.417 24 12 14.417 21.583 24 24 21.583 14.417 12z"
                   fill="#212134"
                 />
               </svg>
@@ -248,7 +248,7 @@ describe('<UploadProgress />', () => {
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M24 2.417 21.583 0 12 9.583 2.417 0 0 2.417 9.583 12 0 21.583 2.417 24 12 14.417 21.583 24 24 21.583 14.417 12 24 2.417Z"
+            d="M24 2.417 21.583 0 12 9.583 2.417 0 0 2.417 9.583 12 0 21.583 2.417 24 12 14.417 21.583 24 24 21.583 14.417 12z"
             fill="#212134"
           />
         </svg>

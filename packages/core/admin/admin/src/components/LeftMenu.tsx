@@ -24,7 +24,7 @@ import { usePersistentState } from '../hooks/usePersistentState';
 import { getDisplayName } from '../utils/users';
 
 const LinkUserWrapper = styled(Box)`
-  width: ${150 / 16}rem;
+  width: 15rem;
   position: absolute;
   bottom: ${({ theme }) => theme.spaces[9]};
   left: ${({ theme }) => theme.spaces[5]};
@@ -158,9 +158,7 @@ const LeftMenu = ({ generalSectionLinks, pluginsSectionLinks }: LeftMenuProps) =
                     onClick={() => handleClickOnLink(link.to)}
                     // @ts-expect-error: badgeContent in the DS accept only strings
                     badgeContent={
-                      link?.lockIcon ? (
-                        <Icon width={`${15 / 16}rem`} height={`${15 / 16}rem`} as={Lock} />
-                      ) : undefined
+                      link?.lockIcon ? <Icon width="1.5rem" height="1.5rem" as={Lock} /> : undefined
                     }
                   >
                     {formatMessage(link.intlLabel)}

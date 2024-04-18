@@ -17,7 +17,7 @@ const StageDragPreview = ({ name }: StageDragPreviewType) => {
       hasRadius
       padding={3}
       shadow="tableShadow"
-      width={`${300 / 16}rem`}
+      width="30rem"
     >
       <Toggle
         alignItems="center"
@@ -27,7 +27,7 @@ const StageDragPreview = ({ name }: StageDragPreviewType) => {
         justifyContent="center"
         width={6}
       >
-        <CarretDown width={`${8 / 16}rem`} />
+        <CarretDown width="0.8rem" />
       </Toggle>
 
       <Typography fontWeight="bold">{name}</Typography>
